@@ -37,3 +37,8 @@ input[type="number"] {
     border-radius: 5px;
     border: 2px solid #000; 
 }
+
+abbr {
+    text-decoration: none; /* Remove o sublinhado de abreviações */
+}
+

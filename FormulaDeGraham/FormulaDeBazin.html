@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>Valuation Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div class="fundo">
+        <h1>Valuation</h1>
+        <p><a href="FormulaDeGraham.html" arget="_self" rel="prev">Fórmula de Graham</a></p>
+        <hr><br>
+        <h2> Fórmula de Bazin</h2>
+        <hr><br>
+        <form>
+            <div>
+                <label for="vpa"><strong><abbr title="Valor Patrimonial por Ação">&#128712</abbr> VPA:</strong></label> 
+                <input type="number" id="vpa" name="vpa" width="">
+
+                <label for="lpa"><strong><abbr title="Lucro por Ação">&#128712</abbr> LPA:</strong></label>
+                <input type="number" id="lpa" name="lpa">
+
+            </div>
+        </form>
+        <br>
+        <button class="botao"; onclick="calcular()";><b>Calcular</b></button>
+        <br><br>
+        <div class="resultado">
+            <p id="resultado"></p>
+        </div>
+        <div>
+            <br>
+            <p><a href="https://investidor10.com.br/" target="_blank" rel="external">Onde encontrar VPA e LPA</a></p>
+        </div>
+
+        <!-- <img src="logo.jpg" alt="logo jpg"> -->
+    </div>
+</body>
+</html>
