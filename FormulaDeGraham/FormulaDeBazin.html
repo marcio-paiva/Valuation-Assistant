@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/icone.ico" type="image/x-icon">
     <title>Valuation Assistant</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <script src="FormulaDeBazin.js"></script>
 
 </head>
 <body>
@@ -18,11 +18,11 @@
         <hr><br>
         <form>
             <div>
-                <label for="vpa"><strong><abbr title="Valor Patrimonial por Ação">&#128712</abbr> VPA:</strong></label> 
-                <input type="number" id="vpa" name="vpa" width="">
+                <label for="dividend yield desejado"><strong><abbr title="Dividend Yield desejado (recomendado: 6%)">&#128712</abbr> DY desejado (%):</strong></label> 
+                <input type="number" id="dy" name="dy">
 
-                <label for="lpa"><strong><abbr title="Lucro por Ação">&#128712</abbr> LPA:</strong></label>
-                <input type="number" id="lpa" name="lpa">
+                <label for="dividendo anual"><strong><abbr title="Somatório dos dividendos pagos nos últimos 12 meses">&#128712</abbr> Dividendos (12M):</strong></label>
+                <input type="number" id="d12" name="d12">
 
             </div>
         </form>
@@ -34,10 +34,8 @@
         </div>
         <div>
             <br>
-            <p><a href="https://investidor10.com.br/" target="_blank" rel="external">Onde encontrar VPA e LPA</a></p>
+            <p><a href="https://investidor10.com.br/" target="_blank" rel="external">Onde encontrar os dividendos pagos</a></p>
         </div>
-
-        <!-- <img src="logo.jpg" alt="logo jpg"> -->
     </div>
 </body>
 </html>
