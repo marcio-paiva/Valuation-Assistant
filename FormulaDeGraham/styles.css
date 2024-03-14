@@ -42,3 +42,8 @@ abbr {
     text-decoration: none; /* Remove o sublinhado de abreviações */
 }
 
+blockquote {
+    margin-left: 40px; /* Defina o recuo esquerdo desejado */
+    text-decoration: none; /* Remova sublinhado dentro de blockquote */
+}
+
